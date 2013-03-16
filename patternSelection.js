@@ -12,7 +12,7 @@ var LED_CURSOR  = 15;
 
 var MAXPATS  = 20;
 var patcount = 1;
-var current  = 1;
+var current  = 0;
 var cursor   = 0;
 
 // Set number of patterns
@@ -39,12 +39,10 @@ function delta(d) {
 	}
 
 	sectorSize = Math.floor(64 / patcount);
-	if (sectorSize * patcount < 64) {
-		//sectorSize++;
-	}
 
 	old = current;
 	current = Math.floor(cursor / sectorSize);
+	// Extend last sector when uneven division
 	if (current >= patcount) {
 		current = patcount - 1;
 	}
@@ -63,6 +61,7 @@ function delta(d) {
 			led = LED_SECTOR;
 		}
 
+		// Extend last sector when uneven division
 		if (n >= (patcount * sectorSize)) {
 			if (current == patcount - 1) {
 				led = LED_CURRENT;
@@ -78,6 +77,7 @@ function delta(d) {
 		map.push(led);
 	}
 
+	// Rotate map left by half sector
 	halfSector = Math.floor(sectorSize / 2);
 	for (n=0; n<halfSector; n++) {
 		map.push(map.shift());
