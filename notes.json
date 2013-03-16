@@ -1,11 +1,11 @@
 {
 	"preset_data" : [ 		{
 			"number" : 1,
-			"data" : [ 5, "obj-44", "number", "int", -22, 5, "obj-131", "number", "int", 0 ]
+			"data" : [ 36, "obj-9", "multislider", "list", 48, 50, 52, 53, 55, 57, 59, 60, 62, 64, 65, 67, 69, 71, 72, 74, 60, 62, 64, 65, 67, 69, 71, 72, 74, 76, 77, 79, 81, 83, 81, 79 ]
 		}
 , 		{
 			"number" : 5,
-			"data" : [ 5, "<invalid>", "kslider", "int", 48, 5, "obj-50", "kslider", "int", 38, 5, "obj-50", "kslider", "int", 40, 5, "obj-50", "kslider", "int", 75, 5, "obj-50", "kslider", "int", 43, 5, "obj-50", "kslider", "int", 45, 5, "obj-50", "kslider", "int", 82, 5, "obj-50", "kslider", "int", 48, 5, "obj-50", "kslider", "int", 50, 5, "obj-50", "kslider", "int", 53, 5, "obj-50", "kslider", "int", 53, 5, "obj-50", "kslider", "int", 55, 5, "obj-44", "number", "int", -15, 5, "<invalid>", "number", "int", 0, 5, "obj-50", "kslider", "int", 57, 5, "obj-50", "kslider", "int", 59, 5, "obj-50", "kslider", "int", 60, 5, "<invalid>", "kslider", "int", 62, 5, "obj-50", "kslider", "int", 79, 5, "obj-50", "kslider", "int", 62, 5, "obj-50", "kslider", "int", 64, 5, "obj-50", "kslider", "int", 63, 5, "obj-50", "kslider", "int", 67, 5, "obj-50", "kslider", "int", 69, 5, "obj-50", "kslider", "int", 77, 5, "obj-50", "kslider", "int", 72, 5, "obj-50", "kslider", "int", 74, 5, "obj-50", "kslider", "int", 83, 5, "obj-50", "kslider", "int", 77, 5, "obj-50", "kslider", "int", 79, 5, "obj-131", "number", "int", 9, 5, "<invalid>", "number", "int", -1, 5, "obj-50", "kslider", "int", 81, 5, "obj-50", "kslider", "int", 83, 5, "obj-50", "kslider", "int", 36, 5, "obj-50", "kslider", "int", 36 ]
+			"data" : [ 36, "obj-9", "multislider", "list", 83, 82, 81, 81, 80, 79, 78, 76, 75, 74, 73, 72, 72, 71, 70, 69, 68, 66, 65, 63, 62, 60, 59, 58, 57, 56, 56, 55, 55, 83, 81, 79 ]
 		}
  ]
 }

@@ -158,6 +158,7 @@
 				"box" : 				{
 					"blinkcolor" : [ 0.07357, 1.0, 0.000534, 1.0 ],
 					"id" : "obj-22",
+					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
