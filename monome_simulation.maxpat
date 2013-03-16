@@ -30,6 +30,32 @@
 				"box" : 				{
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 688.0, 224.0, 160.0, 18.0 ],
+					"text" : "13 3 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Andale Mono",
+					"fontsize" : 12.0,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 85.0, 100.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Andale Mono",
+					"fontsize" : 12.0,
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -956,16 +982,16 @@
 ,
 									"patching_rect" : [ 108.0, 342.0, 111.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Helvetica Neue",
-										"fontface" : 0,
-										"fontsize" : 11.0,
+										"fontname" : "Helvetica Neue",
 										"default_fontsize" : 11.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 11.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p rampup-thendown"
@@ -1228,16 +1254,16 @@
 ,
 									"patching_rect" : [ 288.0, 360.0, 111.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Helvetica Neue",
-										"fontface" : 0,
-										"fontsize" : 11.0,
+										"fontname" : "Helvetica Neue",
 										"default_fontsize" : 11.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 11.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p rampup-thendown"
@@ -1471,16 +1497,16 @@
 ,
 					"patching_rect" : [ 496.0, 80.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
-						"fontface" : 0,
-						"fontsize" : 11.0,
+						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : ""
+						"tags" : "",
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p animate"
@@ -2251,16 +2277,16 @@
 ,
 					"patching_rect" : [ 32.0, 566.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Andale Mono",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Andale Mono",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Andale Mono",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : ""
+						"tags" : "",
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p sound"
@@ -2378,7 +2404,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 464.0, 219.0, 18.0 ],
+					"patching_rect" : [ 400.0, 463.0, 219.0, 18.0 ],
 					"text" : "/monome/grid/led/set $1 $2 $3"
 				}
 
@@ -2770,16 +2796,16 @@
 ,
 					"patching_rect" : [ 1107.0, 624.0, 104.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
-						"fontface" : 0,
-						"fontsize" : 11.0,
+						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : ""
+						"tags" : "",
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ring-extras"
@@ -3457,16 +3483,16 @@
 ,
 									"patching_rect" : [ 242.0, 136.0, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Andale Mono",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Andale Mono",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Andale Mono",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p accum"
@@ -3789,16 +3815,16 @@
 ,
 									"patching_rect" : [ 178.0, 136.0, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Andale Mono",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Andale Mono",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Andale Mono",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p accum"
@@ -4121,16 +4147,16 @@
 ,
 									"patching_rect" : [ 114.0, 136.0, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Andale Mono",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Andale Mono",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Andale Mono",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p accum"
@@ -4453,16 +4479,16 @@
 ,
 									"patching_rect" : [ 50.0, 136.0, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Andale Mono",
-										"default_fontface" : 0,
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Andale Mono",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"fontname" : "Andale Mono",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : ""
+										"tags" : "",
+										"fontface" : 0,
+										"globalpatchername" : "",
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p accum"
@@ -5064,16 +5090,16 @@
 ,
 					"patching_rect" : [ 848.0, 439.0, 59.5, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
-						"fontface" : 0,
-						"fontsize" : 11.0,
+						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : ""
+						"tags" : "",
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ring"
@@ -5366,16 +5392,16 @@
 ,
 					"patching_rect" : [ 853.0, 576.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
-						"fontface" : 0,
-						"fontsize" : 11.0,
+						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 11.0,
 						"description" : "",
-						"tags" : ""
+						"tags" : "",
+						"fontface" : 0,
+						"globalpatchername" : "",
+						"fontsize" : 11.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ring/all"
@@ -6076,6 +6102,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
