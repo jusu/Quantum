@@ -10,6 +10,13 @@ function pos(x, y) {
 	l[2] = 16;
 }
 
+function pos2(x, y) {
+	pos(x, y);
+	pos(x+1, y);
+	pos(x, y+1);
+	pos(x+1, y+1);
+}
+
 function bang() {
 	for (k in leds) {
 		l = leds[k];
