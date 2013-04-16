@@ -10,7 +10,7 @@ var LED_CURRENT = 1;
 var LED_SECTOR  = 8;
 var LED_CURSOR  = 15;
 
-var MAXPATS  = 20;
+var MAXPATS  = 50;
 var patcount = 1;
 var current  = 0;
 var cursor   = 0;

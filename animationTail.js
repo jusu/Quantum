@@ -18,14 +18,24 @@ function pos2(x, y) {
 }
 
 function bang() {
+	var toremove = [];
+
 	for (k in leds) {
 		l = leds[k];
 		l[2]--;
 		if (l[2] >= 0) {
 			outlet(1, "setcell2d", l[0], l[1], ramp[l[2]] * 17);
-			outlet(0, l[0], l[1], l[2]);
+			outlet(0, l[0], l[1], ramp[l[2]]);
+		} else {
+			outlet(1, "setcell2d", l[0], l[1], 0);
+			outlet(0, l[0], l[1], 0);
+			toremove.push(k);
 		}
 	}
+
+	toremove.forEach(function(k) {
+		delete leds[k];
+	});
 }
 
 /*

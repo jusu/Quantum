@@ -1,0 +1,11 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 5, "obj-33", "flonum", "float", 2.5, 5, "obj-35", "flonum", "float", 1.1, 5, "obj-40", "flonum", "float", -0.2, 5, "obj-39", "flonum", "float", 0.0, 5, "obj-63", "toggle", "int", 1, 5, "obj-65", "number", "int", 40, 5, "obj-14", "gswitch2", "int", 0 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-33", "flonum", "float", 2.1, 5, "obj-35", "flonum", "float", 1.1, 5, "obj-40", "flonum", "float", -0.2, 5, "obj-39", "flonum", "float", 0.0, 5, "obj-63", "toggle", "int", 1, 5, "obj-65", "number", "int", 40, 5, "obj-14", "gswitch2", "int", 0 ]
+		}
+ ]
+}
