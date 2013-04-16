@@ -5,14 +5,21 @@ autowatch = 1;
 
 b = 2.5;
 a = b;
+lim = 16
 
 function base(x) {
 	b = 2.5;
 	a = b;
 }
 
+function limit(n) {
+	if (n > 0) {
+		lim = n;
+	}
+}
+
 function x(x) {
-	if (x >= 16) {
+	if (x >= lim) {
 		a -= 0.003;
 	}
 	outlet(0, a);

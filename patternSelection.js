@@ -57,7 +57,7 @@ function delta(d) {
 			led = LED_CURRENT;
 		}
 
-		if (n % sectorSize == 0) {
+		if (n % sectorSize == 0 && patcount > 1) {
 			led = LED_SECTOR;
 		}
 

@@ -1036,16 +1036,16 @@
 ,
 									"patching_rect" : [ 853.0, 711.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 11.0,
+										"description" : "",
+										"fontname" : "Helvetica Neue",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 11.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
-										"default_fontname" : "Helvetica Neue",
-										"fontname" : "Helvetica Neue",
-										"globalpatchername" : "",
-										"default_fontsize" : 11.0,
-										"description" : ""
+										"default_fontname" : "Helvetica Neue"
 									}
 ,
 									"text" : "p ring/all"
@@ -1763,7 +1763,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "serialosc.maxpat",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -1774,16 +1774,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 175.5, 510.0, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p monome",
@@ -2192,7 +2192,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "leaf.png",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "PNG ",
 								"implicit" : 1
 							}
@@ -2201,16 +2201,16 @@
 ,
 					"patching_rect" : [ 45.0, 523.0, 111.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Out to InstantJay"
@@ -2256,9 +2256,65 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-27",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 315.0, 315.0, 90.0, 35.0 ],
+									"text" : "16: grid 256\n8: grid64"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-25",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 330.0, 240.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-17",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 347.5, 285.0, 32.5, 18.0 ],
+									"text" : "8"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 315.0, 285.0, 32.5, 18.0 ],
+									"text" : "16"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-64",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patcher" : 									{
@@ -2289,6 +2345,33 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 480.0, 195.0, 79.0, 20.0 ],
+													"text" : "prepend limit"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-2",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 480.0, 75.0, 25.0, 25.0 ],
+													"presentation_rect" : [ 475.0, 69.0, 0.0, 0.0 ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -2414,6 +2497,24 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-27", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-28", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2487,7 +2588,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "scaler.js",
-												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 												"type" : "TEXT",
 												"implicit" : 1
 											}
@@ -2496,16 +2597,16 @@
 ,
 									"patching_rect" : [ 285.0, 375.0, 85.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"fontname" : "Arial",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p autoScale X"
@@ -3016,6 +3117,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-64", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3029,6 +3148,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 2 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
 								}
 
 							}
@@ -3296,13 +3424,13 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "animationTail.js",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "scaler.js",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -3313,16 +3441,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 188.5, 540.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p animation"
@@ -3597,16 +3725,16 @@
 ,
 					"patching_rect" : [ 45.0, 405.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Panic"
@@ -3656,7 +3784,7 @@
 					"patching_rect" : [ 45.0, 478.0, 90.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 180.0, 45.0, 90.0, 31.0 ],
-					"text" : "Quantum"
+					"text" : "1"
 				}
 
 			}
@@ -3731,7 +3859,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 237.0, 553.0, 989.0, 478.0 ],
+						"rect" : [ 338.0, 469.0, 989.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4019,16 +4147,16 @@
 ,
 									"patching_rect" : [ 765.0, 330.0, 92.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"fontname" : "Arial",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p Speed cursor"
@@ -4280,16 +4408,16 @@
 ,
 									"patching_rect" : [ 214.5, 225.0, 73.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"fontname" : "Arial",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p Flash ring"
@@ -4733,7 +4861,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 83.0, 390.0, 735.0, 18.0 ],
-									"text" : "15 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+									"text" : "15 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
 								}
 
 							}
@@ -5170,7 +5298,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "patternSelection.js",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -5181,16 +5309,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 510.0, 38.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Arc"
@@ -5721,16 +5849,16 @@
 ,
 													"patching_rect" : [ 30.0, 394.0, 97.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"fontname" : "Arial",
+														"tags" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
-														"tags" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"globalpatchername" : "",
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p Receive notes"
@@ -6049,16 +6177,16 @@
 ,
 													"patching_rect" : [ 30.0, 568.5, 71.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"fontname" : "Arial",
+														"tags" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
-														"tags" : "",
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"globalpatchername" : "",
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p Set notes"
@@ -6971,13 +7099,13 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "noteoffset.maxpat",
-												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 												"type" : "JSON",
 												"implicit" : 1
 											}
 , 											{
 												"name" : "noteoffsetR.maxpat",
-												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+												"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -6986,16 +7114,16 @@
 ,
 									"patching_rect" : [ 115.0, 360.0, 52.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"fontname" : "Arial",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"tags" : "",
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p Notes",
@@ -7292,13 +7420,13 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "noteoffset.maxpat",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "JSON",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "noteoffsetR.maxpat",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -7307,16 +7435,16 @@
 ,
 					"patching_rect" : [ 45.0, 60.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Sound",
@@ -7336,7 +7464,7 @@
 					"patching_rect" : [ 45.0, 570.0, 324.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 90.0, 420.0, 60.0 ],
-					"text" : "Quantum"
+					"text" : "1"
 				}
 
 			}
@@ -7602,13 +7730,13 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "patterns.js",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
 , 							{
 								"name" : "patternSelector.js",
-								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+								"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -7617,16 +7745,16 @@
 ,
 					"patching_rect" : [ 45.0, 375.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Library"
@@ -7953,16 +8081,16 @@
 ,
 					"patching_rect" : [ 45.0, 15.0, 133.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p Input from InstantJay"
@@ -7980,13 +8108,14 @@
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.0, 90.0, 105.0, 105.0 ],
-					"xplace" : [ 0.376, 0.436, 0.346, 0.442, 0.358, 0.42, 0.372, 0.398, 0.384, 0.396 ],
-					"yplace" : [ 0.736, 0.87, 0.826, 0.712, 0.424, 0.58, 0.154, 0.59, 0.024, 0.032 ]
+					"xplace" : [ 0.344, 0.656, 0.262, 0.442, 0.358, 0.42, 0.372, 0.398, 0.384, 0.396 ],
+					"yplace" : [ 0.462, 0.76, 0.32, 0.712, 0.424, 0.58, 0.154, 0.59, 0.024, 0.032 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"alpha" : 0.25,
 					"id" : "obj-23",
 					"ignoreclick" : 1,
 					"maxclass" : "fpic",
@@ -8183,77 +8312,77 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "red.png",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patterns.js",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patternSelector.js",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noteoffset.maxpat",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "noteoffsetR.maxpat",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patternSelection.js",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Patterns.maxpat",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "animationTail.js",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scaler.js",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "leaf.png",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialosc.maxpat",
-				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
