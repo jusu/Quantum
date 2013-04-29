@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 498.0, 135.0, 637.0, 569.0 ],
+		"rect" : [ 21.0, 557.0, 637.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 165.0, 45.0, 20.0 ],
+					"text" : "print P"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -52,7 +65,7 @@
 					"patching_rect" : [ 119.0, 225.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 291.25, 135.0, 62.5, 18.0 ],
-					"text" : "8 15"
+					"text" : "0 15"
 				}
 
 			}
@@ -207,20 +220,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 435.0, 59.0, 20.0 ],
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -273,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 465.0, 74.0, 20.0 ],
+					"patching_rect" : [ 165.0, 450.0, 74.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -311,14 +310,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.0, 270.0, 255.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.0, 165.0, 255.0, 165.0 ]
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 195.0, 165.0, 255.0, 165.0 ],
+					"text" : "6\n9"
 				}
 
 			}
@@ -354,6 +357,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -434,7 +446,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -488,15 +500,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -534,7 +537,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "patterns.js",
-				"bootpath" : "/Users/jusu/Desktop/InstantJay",
+				"bootpath" : "/Users/jusu/Desktop/Dropbox/-Projects/Juggling/Quantum",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
